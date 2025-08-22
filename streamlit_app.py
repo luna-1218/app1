@@ -229,6 +229,8 @@ if "answered" not in st.session_state:
 if "show_hint" not in st.session_state:
     st.session_state.show_hint = False
 
+st.set_page_config(page_title="수도 맞추기 게임", page_icon="🌍")
+
 st.title("🌍 수도 맞추기 게임")
 
 # --- 대륙 선택 ---
